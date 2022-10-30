@@ -9,11 +9,13 @@ For example, suppose the pyramid below has a target value of 2.
 1        
 2        3    
 4        1        1
+
 A solver for this puzzle should output LR, indicating that the correct path starts from the 1 on top, goes Left to the 2 on the second row, then goes Right to the 1 in the center of the bottom row. (Note in particular that the successful path cannot go through the 1 at the end of the bottom row.) This gives the path shown in red below:
 
 1        
 2        3    
 4        1        1
+
 In your language of choice, write a solver that can solve any pyramid descent puzzle. Your solver can assume that every input pyramid has a first row with one number and every row thereafter has one more number than the row above. Each row is aligned such that the center of the row aligns with the midline of the pyramid (as shown in the samples above and below).
 
 Below is a sample pyramid with target 720 along with the sample program input and output for this puzzle.
