@@ -25,4 +25,3 @@ Below is a sample pyramid with target 720 along with the sample program input an
 3        2        6        
 2        9        5        2    
 10        5        2        15        5
-Input & output files:
